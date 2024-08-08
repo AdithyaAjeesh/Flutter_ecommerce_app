@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:food_store_ecommerce_app/controller/auth_controller.dart';
+import 'package:food_store_ecommerce_app/view/home_screen.dart';
 import 'package:food_store_ecommerce_app/view/startup_screens/login_screen.dart';
+import 'package:food_store_ecommerce_app/view/startup_screens/signup_screen.dart';
 import 'package:food_store_ecommerce_app/view/startup_screens/splash_screen.dart';
 import 'package:provider/provider.dart';
 
@@ -22,7 +24,7 @@ class MyApp extends StatelessWidget {
         ),
       ],
       child: const MaterialApp(
-        home: LoginScreen(),
+        home: HomeScreen(),
       ),
     );
   }
